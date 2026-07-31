@@ -47,6 +47,12 @@ NEXT_PUBLIC_TRASHTRACK_API_URL=http://127.0.0.1:8080
 
 โปรเจกต์นี้เป็น Portfolio MVP ข้อมูลสถานที่ กล้อง และสมาชิกยังเป็นข้อมูลสาธิตในหน่วยความจำ ระบบ Login และการสแกนตามเวลาแบบ Server ยังไม่ได้เชื่อมฐานข้อมูลจริง
 
+## เว็บไซต์ออนไลน์
+
+GitHub Pages: `https://lostinyss.github.io/trask-seeker/`
+
+ทุกครั้งที่ Push ไปยัง Branch `main` ระบบ GitHub Actions จะ Build และเผยแพร่เว็บไซต์ใหม่ให้อัตโนมัติ
+
 ## ผู้พัฒนา
 
 กิตติกร มานิมนต์ — ออกแบบและพัฒนาเว็บแอป พร้อมนำ TrashTrack API และ AI มาประยุกต์ใช้
