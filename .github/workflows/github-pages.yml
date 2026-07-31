@@ -26,7 +26,7 @@ jobs:
           node-version: 22
           cache: npm
       - name: ติดตั้ง Dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
       - name: สร้างเว็บไซต์ Static
         run: npm run build:pages
         env:
