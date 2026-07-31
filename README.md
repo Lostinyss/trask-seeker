@@ -49,7 +49,7 @@ NEXT_PUBLIC_TRASHTRACK_API_URL=http://127.0.0.1:8080
 
 ## เว็บไซต์ออนไลน์
 
-GitHub Pages: `https://lostinyss.github.io/trask-seeker/`
+GitHub Pages: `https://lostinyss.github.io/trash-seeker/`
 
 ทุกครั้งที่ Push ไปยัง Branch `main` ระบบ GitHub Actions จะ Build และเผยแพร่เว็บไซต์ใหม่ให้อัตโนมัติ
 

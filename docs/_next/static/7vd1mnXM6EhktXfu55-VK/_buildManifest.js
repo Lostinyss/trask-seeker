@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/trask-seeker//_next/:path+",
-        "destination": "/trask-seeker/_next/:path+"
+        "source": "/trash-seeker//_next/:path+",
+        "destination": "/trash-seeker/_next/:path+"
       }
     ],
     "fallback": []
