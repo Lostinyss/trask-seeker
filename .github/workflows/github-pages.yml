@@ -20,24 +20,12 @@ jobs:
     steps:
       - name: ดาวน์โหลด Source Code
         uses: actions/checkout@v6
-      - name: ติดตั้ง Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: 22
-          cache: npm
-      - name: ติดตั้ง Dependencies
-        run: npm install --legacy-peer-deps
-      - name: สร้างเว็บไซต์ Static
-        run: npm run build:pages
-        env:
-          GITHUB_PAGES: "true"
-          NEXT_PUBLIC_TRASHTRACK_API_URL: ${{ vars.TRASHTRACK_API_URL }}
       - name: ตั้งค่า GitHub Pages
         uses: actions/configure-pages@v5
       - name: อัปโหลดเว็บไซต์
         uses: actions/upload-pages-artifact@v4
         with:
-          path: out
+          path: docs
 
   deploy:
     environment:
